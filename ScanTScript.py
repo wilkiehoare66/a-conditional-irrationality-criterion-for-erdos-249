@@ -111,3 +111,33 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+"""
+
+Output:
+Building totient sieve up to 1000046...
+Sieve done in 0.749 s
+t=100,000  ruled_out=100,000  failures=0  elapsed=0.91s  rate=110,377 t/s
+t=200,000  ruled_out=200,000  failures=0  elapsed=2.02s  rate=99,023 t/s
+t=300,000  ruled_out=300,000  failures=0  elapsed=3.07s  rate=97,681 t/s
+t=400,000  ruled_out=400,000  failures=0  elapsed=4.15s  rate=96,302 t/s
+t=500,000  ruled_out=500,000  failures=0  elapsed=5.29s  rate=94,595 t/s
+t=600,000  ruled_out=600,000  failures=0  elapsed=6.41s  rate=93,627 t/s
+t=700,000  ruled_out=700,000  failures=0  elapsed=7.57s  rate=92,450 t/s
+t=800,000  ruled_out=800,000  failures=0  elapsed=8.74s  rate=91,511 t/s
+t=900,000  ruled_out=900,000  failures=0  elapsed=9.92s  rate=90,691 t/s
+t=1,000,000  ruled_out=1,000,000  failures=0  elapsed=11.06s  rate=90,378 t/s
+
+Finished scan up to 1,000,000 in 11.065 s
+Ruled out: 1,000,000
+Failures:  0
+Every t in the range was ruled out.
+
+Sample witnesses:
+t=1: (7, 34, 21)
+t=2: (7, 24, 22)
+t=3: (8, 34, 25)
+t=10: (8, 40, 32)
+t=100: (11, 152, 128)
+t=1000: (13, 1666, 1032)
+"""
